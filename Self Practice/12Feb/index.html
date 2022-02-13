@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            background-image: url("https://mcdn.wallpapersafari.com/medium/45/69/xRIEOb.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: 'Akaya Telivigala', cursive;
+        }
+        
+        ul {
+            margin-top: 20px;
+        }
+        
+        li {
+            display: inline;
+            padding: 15px;
+        }
+        
+        h1 {
+            color: #e9107d;
+        }
+        /* li:hover {
+            background-color: #961910;
+        } */
+        
+        header {
+            text-align: center;
+            font-size: larger;
+        }
+        
+        footer {
+            text-align: center;
+            position: relative;
+            top: 20%;
+        }
+        
+        input[type=text],
+        input[type=email],
+        textarea {
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-family: 'Akaya Telivigala', cursive;
+        }
+        
+        input[type=submit] {
+            width: 50%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+        
+        #content {
+            margin-left: 5%;
+            text-align: center;
+            position: relative;
+            top: 10%;
+            border-radius: 2px;
+            /* background-color: #f2f2f2; */
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li> <a href="#">Contact Us</a></li>
+            <li>Our Works</li>
+            <li>Our Clients</li>
+        </ul>
+    </header>
+
+    <div id="content">
+        <form>
+            <h1>Contact us</h1>
+            <input type="text" placeholder="Enter your full name">
+            <input type="email" placeholder="Enter your email">
+            <textarea name="msg" id="" cols="30" rows="3" placeholder="Enter your quries"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <footer>
+        <h3>@CopyRight - AaravTechSolutions, 2022-2023</h3>
+    </footer>
+</body>
+
+</html>
